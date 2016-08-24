@@ -62,7 +62,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             
         }
         
-        socket = WebSocket(url: NSURL(string: "ws://192.168.1.153:8080/test")!)
+        socket = WebSocket(url: NSURL(string: "ws://say-hi.herokuapp.com/test")!)
         //websocketDidConnect
         socket.onConnect = {
             print("websocket is connected")
